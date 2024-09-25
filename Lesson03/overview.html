@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+</head>
+<body>
+    <!--Table-->>
+    <table border="1" cellcpacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Cột 1</th>
+                <th>Cột 2</th>
+                <th>Cột 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="">Cột 1</td>
+                <td>Cột 2</td>
+                <td>Cột 3</td>
+            </tr>
+            <tr>
+                <td colspan="">Cột 1</td>
+                <td>Cột 2</td>
+                <td>Cột 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Form-->
+    <!--
+    type của thẻ input: type:text, password, number, datetime, email, range,...
+    type chú ý về type: submit / button:
+    -->
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+
+        <select>
+            <option name="diaChi" id="diaChi"></option>
+            <option value="HN">Hà Nội</option>
+            <option value="HP">Hải Phòng</option>
+            <option value="QN">Quảng Ninh</option>
+        </select>
+        <textarea name="moTa" id="">moTa</textarea>
+    </form>
+</body>
+</html>
